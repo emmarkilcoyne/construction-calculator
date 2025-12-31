@@ -19,5 +19,12 @@ def convert_fraction(decimal):
     denominator = 16
     numerator = round(decimal * 16) 
 
-    if (numerator % 2 == 0):
-        
+    # TO DO: make sure numerator is never zero ... this function should not be called if numerator is 0
+    # while numerator is even divide the denominator by 2
+    while (numerator % 2 == 0):
+        denominator = denominator // 2
+        numerator = numerator // 2
+
+    return numerator, denominator
+
+
