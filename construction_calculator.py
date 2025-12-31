@@ -13,8 +13,8 @@ def convert_inches(feet, inches):
     return inches
 
 def convert_fraction(decimal):
-    #round decimal to the nearest fraction with 1/16" precision
-    #returns numerator and denominator
+    # round decimal to the nearest fraction with 1/16" precision
+    # returns numerator and denominator
 
     denominator = 16
     numerator = round(decimal * 16) 
@@ -26,5 +26,11 @@ def convert_fraction(decimal):
         numerator = numerator // 2
 
     return numerator, denominator
+
+def convert_decimal(numerator, denominator):
+    # returns decimal version of fraction
+
+    decimal = numerator / denominator
+    return decimal
 
 
