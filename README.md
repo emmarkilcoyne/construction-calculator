@@ -4,6 +4,8 @@ Convert between fractional inches, decimal, yards
 
 This project's purpose is to build a reusable calculator tailored to math for construction, removing the need for manual unit conversions during calculations.
 
+Status: In Development (GUI and input parsing)
+
 How to Run
 1. Download or clone the repository
 2. Navigate to the project directory
