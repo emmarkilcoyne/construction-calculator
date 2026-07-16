@@ -8,14 +8,13 @@ def main():
     calculation = ""
 
     while(true):
-        #recieve input
-        
+     
         window = tk.Tk()
         window.geometry("300x300")
         display = tk.Text(window, height=2, width=21, font=("Times New Roman", 20))
         display.grid(row=1, column=1, columnspan=4)
         window.mainloop()
-        #do something with the input
+       
 
 
 def convert_inches(feet, inches):
