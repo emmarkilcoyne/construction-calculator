@@ -6,10 +6,6 @@ This project's purpose is to build a reusable calculator tailored to math for co
 
 Status: In Development (GUI and input parsing)
 
-How to Run
-1. Download or clone the repository
-2. Navigate to the project directory
-3. Run the script:    python3 construction_calculator.py
 
 
 
